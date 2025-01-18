@@ -1,0 +1,23 @@
+{
+  "name": "goreact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node esbuild.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "chokidar": "^4.0.3",
+    "esbuild": "^0.24.2",
+    "esbuild-style-plugin": "^1.6.3",
+    "postcss": "^8.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
